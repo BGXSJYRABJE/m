@@ -16,6 +16,11 @@
 			case $x in
 			1 | 01)
 			echo -e "\n\033[1;36mINICIANDO INSTALAÇÃO \033[1;33mAGUARDE..."
+			apt-get install lolcat -y &>/dev/null
+			apt-get install figlet -y &>/dev/null
+			apt-get install curl -y &>/dev/null
+			apt install git -y &>/dev/null 
+			apt install figlet boxes -y &>/dev/null
 			apt-get install figlet -y > /dev/null 2>&1
 			pip3 install flask > /dev/null 2>&1
 			rm /bin/mtuning > /dev/null 2>&1
