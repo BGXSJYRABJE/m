@@ -24,6 +24,9 @@
 			wget https://github.com/BGXSJYRABJE/hdisbsi/raw/main/Modulos/mtuning > /dev/null 2>&1
 			chmod 777 mtuning > /dev/null 2>&1
 			clear
+			mkdir /etc/rec > /dev/null 2>&1
+			echo -e 'By: @KIRITO_SSH' > /etc/rec/licence
+			echo -e 'By: @KIRITO_SSH' > /usr/lib/licence
 			mkdir /usr/lib/ferramentas > /dev/null 2>&1
 			cd /usr/lib/ferramentas || exit
 			rm mtuning > /dev/null 2>&1
