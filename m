@@ -27,7 +27,7 @@
 			mkdir /etc/rec > /dev/null 2>&1
 			echo -e 'By: @KIRITO_SSH' > /etc/rec/licence
 			echo -e 'By: @KIRITO_SSH' > /usr/lib/licence
-			mkdir /usr/lib/checkuser > /dev/null 2>&1
+			mkdir /usr/lib/mtuning > /dev/null 2>&1
 			cd /usr/lib/mtuning || exit
 			rm mtuning > /dev/null 2>&1
 			wget https://github.com/BGXSJYRABJE/hdisbsi/raw/main/Modulos/mtuning > /dev/null 2>&1
