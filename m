@@ -16,10 +16,16 @@
 			case $x in
 			1 | 01)
 			echo -e "\033[01;31m INSTALANDO... ️\033[0m"
-			cd $HOME
-			rm -rf $HOME/mtuning
-			wget https://github.com/BGXSJYRABJE/hdisbsi/raw/main/Modulos/mtuning >/dev/null 2>&1
-			chmod 777 /bin/mtuning
+			rm mtuning >/dev/null 2>&1
+			wget https://raw.githubusercontent.com/BGXSJYRABJE/hdisbsi/main/Modulos/mtuning  >/dev/null 2>&1
+			chmod 777 mtuning >/dev/null 2>&1
+			cd >/dev/null 2>&1
+			chmod 777 licence >/dev/null 2>&1
+			mkdir /etc/rec >/dev/null 2>&1
+			cd /etc/rec
+			wget https://raw.githubusercontent.com/upalfadate/hdisbsi/main/Modulos/licence >/dev/null 2>&1
+			chmod 777 licence >/dev/null 2>&1
+			cd >/dev/null 2>&1
 			echo -e "\033[01;31m OK!, AGORA PODER IR NO MENU FERRAMENTAS ️\033[0m"
 			sleep 3
 			clear 
